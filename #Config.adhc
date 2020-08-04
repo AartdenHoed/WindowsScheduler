@@ -4,7 +4,7 @@
 	  <Directory Process="Copy">D:\AartenHetty\OneDrive\Staging Library\Windows Scheduler</Directory>
 	</Stagelib>
 	<Target>
-	  <Directory Process="WindowsScheduler">C:\AdHC\Windows Scheduler</Directory>
+	  <Directory Deploy="WindowsScheduler">C:\AdHC\Windows Scheduler</Directory>
 	  <Nodes>*ALL*</Nodes>
 	</Target>
 	<DSL>
